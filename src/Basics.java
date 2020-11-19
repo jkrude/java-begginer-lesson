@@ -62,7 +62,7 @@ public class Basics {
 
     public static void firstExercise() {
         int hours = 2;
-        int minutes = 30;
+        float minutes = 30f;
         float combinedTime = 0f;
         /* TODO
          * Combine hours and minutes into number (float)
@@ -71,7 +71,7 @@ public class Basics {
          * Tip: To divide numbers use: a / b
          * Write your code in the next line
          */
-
+        combinedTime = hours + minutes / 60;
 
         System.out.println("Combined Time: " + combinedTime);
         System.out.println("It should be 10.466666.");
@@ -87,11 +87,12 @@ public class Basics {
          * Formula: https://de.wikipedia.org/wiki/Grad_Celsius#Umrechnung
          * Write your code in the next line
          */
-
-
+        temperatureInFahrenheit = temperatureInCelsius * 1.8f + 32;
         System.out.println("Temperature in Fahrenheit: " + temperatureInFahrenheit);
-        System.out.println("It should be 86.0°F");
+        temperatureInCelsius = (temperatureInFahrenheit - 32) * 5/9;
+        System.out.println("Temperature in Celsius:" + temperatureInCelsius);
 
+        System.out.println("It should be 86.0°F");
     }
 
     public static void bonusExercise() {
@@ -103,7 +104,9 @@ public class Basics {
          * If you want, have a look at: https://techvidvan.com/tutorials/java-for-loop/
          * Write your code in the next line
          */
-
+        for (int lp = 1; lp <= 100; lp++){
+            sum += lp;
+        }
 
         System.out.println("Sum: " + sum);
         System.out.println("It should be 5050.");
