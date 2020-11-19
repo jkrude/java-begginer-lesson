@@ -1,17 +1,20 @@
+package main;
+
+import main.Washer.Program;
+
 public class Main {
 
-  enum CLOTH_TYPE{
-    T_SHIRTS,
-    WOOL_SWEATER,
-    MIXED
+  enum Clothing {
+    T_SHIRT,
+    WOOL_SWEATER
   }
 
   public static void main(String[] args) {
     Washer washer = new Washer();
-    startWashCycle(Main.CLOTH_TYPE.T_SHIRTS, washer, 3.141f, 3);
+    startWashCycle(Clothing.T_SHIRT, washer, 3.141f, 3);
   }
 
-  static void startWashCycle(Main.CLOTH_TYPE clothType, Washer washer, float clothWeight, float dirtyFactor) {
+  static void startWashCycle(Clothing clothType, Washer washer, float clothWeight, float dirtyFactor) {
     /* Manual:
      * open washer
      * fill in clothes
@@ -31,7 +34,7 @@ public class Main {
     washer.closeDoor();
     washer.fillDetergent(detergentLevel);
     // TODO Choose program depending on cloth type.
-    washer.chooseProgram(Washer.Program.STANDARD);
+    washer.chooseProgram(Program.STANDARD);
     washer.start();
 
 
