@@ -17,6 +17,7 @@ public class Basics {
          * If you have any problems shoot us an email! :)
          * */
         explainBasics();
+        castingVariable();
         firstExercise();
         secondExercise();
         bonusExercise();
@@ -77,6 +78,14 @@ public class Basics {
         System.out.println("It should be 10.466666.");
     }
 
+    public static void castingVariable(){
+        float pi = 3.14f;
+        int intNumber = (int) pi;
+        System.out.println("From float to int:" + intNumber);
+        int integerNum = 5;
+        float floatNum = (float) intNumber / 2;
+        System.out.println("From int to float:" + integerNum);
+    }
 
     public static void secondExercise() {
         float temperatureInCelsius = 2;
