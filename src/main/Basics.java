@@ -1,3 +1,5 @@
+package main;
+
 public class Basics {
 
     public static void main(String[] args) {
@@ -52,7 +54,6 @@ public class Basics {
         // Rational numbers are stored as floats
         float pi = 3.141f; // f is short for float
 
-
         // Text is stored in Strings
         String foo = "foo";
         // You can add strings too
@@ -72,7 +73,6 @@ public class Basics {
          * Write your code in the next line
          */
 
-
         System.out.println("Combined Time: " + combinedTime);
         System.out.println("It should be 10.466666.");
     }
@@ -88,7 +88,6 @@ public class Basics {
          * Write your code in the next line
          */
 
-
         System.out.println("Temperature in Fahrenheit: " + temperatureInFahrenheit);
         System.out.println("It should be 86.0°F");
 
@@ -103,7 +102,6 @@ public class Basics {
          * If you want, have a look at: https://techvidvan.com/tutorials/java-for-loop/
          * Write your code in the next line
          */
-
 
         System.out.println("Sum: " + sum);
         System.out.println("It should be 5050.");

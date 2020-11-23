@@ -1,6 +1,8 @@
+package main;
+
 public class LoopIntroduction {
 
-  static int sleep(int dayOfYear){
+  static int sleep(int dayOfYear) {
     // More accurate dayOfYear += random number between 1 and 5.
     return ++dayOfYear;
   }
