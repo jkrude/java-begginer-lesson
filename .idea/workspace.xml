@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b32d31d-7842-440a-bef6-67db57f68fdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aufgabe1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aufgabe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgaben.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +46,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Application.aufgabe1">
+  <component name="RunManager" selected="Application.Aufgaben">
+    <configuration name="Aufgaben" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Aufgaben" />
+      <module name="java-beginner-lesson" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics" />
       <module name="java-beginner-lesson" />
@@ -60,16 +71,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aufgabe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aufgabe1" />
-      <module name="java-beginner-lesson" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Basics" />
+      <item itemvalue="Application.Aufgaben" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.aufgabe1" />
+        <item itemvalue="Application.Aufgaben" />
         <item itemvalue="Application.Basics" />
       </list>
     </recent_temporary>
@@ -85,7 +93,15 @@
       <workItem from="1605786158545" duration="605000" />
       <workItem from="1605786778897" duration="242000" />
       <workItem from="1605787026768" duration="2977000" />
-      <workItem from="1605792265048" duration="1645000" />
+      <workItem from="1605792265048" duration="1829000" />
+      <workItem from="1606159713045" duration="544000" />
+      <workItem from="1606379403430" duration="674000" />
+      <workItem from="1606380098309" duration="231000" />
+      <workItem from="1606380390048" duration="1944000" />
+      <workItem from="1606384007414" duration="1409000" />
+      <workItem from="1606392380469" duration="1212000" />
+      <workItem from="1606901636700" duration="1750000" />
+      <workItem from="1606903658336" duration="9390000" />
     </task>
     <servers />
   </component>
@@ -105,41 +121,75 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605788221089">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1606379927400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1605788221089" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1605793808626">
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1606379927400" />
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606381584297">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605793808626" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1605793808626">
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606381584297" />
+    <state x="469" y="68" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1606379851618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605793808626" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1605793808626">
+    <state x="469" y="68" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1606379851618" />
+    <state x="419" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606380032199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605793808626" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1605793808626">
+    <state x="419" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1606380032199" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606902481846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605793808626" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1605792237797">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606902481846" />
+    <state width="1323" height="312" key="GridCell.Tab.0.bottom" timestamp="1606915326650">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605792237797" />
+    <state width="1323" height="312" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606915326650" />
+    <state width="1323" height="312" key="GridCell.Tab.0.center" timestamp="1606915326650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="312" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606915326650" />
+    <state width="1323" height="312" key="GridCell.Tab.0.left" timestamp="1606915326649">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="312" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606915326649" />
+    <state width="1323" height="312" key="GridCell.Tab.0.right" timestamp="1606915326650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="312" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606915326650" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1606902508626">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606902508626" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605792519687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605792519686" />
+    <state x="228" y="98" width="909" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606911714816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="228" y="98" width="909" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1606911714816" />
     <state x="444" y="76" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605787248022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="76" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1605787248022" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605787950248">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1606913563394">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605787950248" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1606913563394" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606902125189">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606902125189" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
