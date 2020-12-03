@@ -1,7 +1,5 @@
 package lesson3and4.exercise3Solution;
 
-import java.util.Arrays;
-
 public class Taxi {
     Human driver;
     Human[] passengers;
@@ -29,13 +27,9 @@ public class Taxi {
     }
 
     public Human[] allGetOut(){
-        Human[] outPassengers = new Human[passengerCount];
-        if (passengerCount >= 0) System.arraycopy(passengers, 0, outPassengers, 0, passengerCount);
-        // The previous line does the same as the next three lines of comments
-        // for (int i=0; i<passengerCount; i++){
-        //    outPassengers[i] = passengers[i];
-        // }
+        Human[] outPassengers = passengers;
         passengerCount = 0;
+        passengers = new Human[4];
         return outPassengers;
     }
 
