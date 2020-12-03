@@ -1,6 +1,6 @@
-package main;
+package lesson1;
 
-import main.Washer.Program;
+import lesson1.Washer.Program;
 
 public class Main {
 

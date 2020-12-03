@@ -1,4 +1,4 @@
-package main;
+package lesson2;
 
 public class LoopIntroduction {
 
