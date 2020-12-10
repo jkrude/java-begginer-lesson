@@ -1,4 +1,4 @@
-package lesson3and4.exercise3Solution;
+package lesson3and4.solution;
 
 public class Human {
     String forename;
@@ -15,5 +15,19 @@ public class Human {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public String toString() {
+        return forename + " " + name;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Human){
+            Human humanObject = (Human) obj;
+            return forename.equals(humanObject.getForename()) && name.equals(humanObject.getName());
+        }
+        return false;
     }
 }
