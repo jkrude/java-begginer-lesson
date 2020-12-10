@@ -16,7 +16,7 @@ public class Aufgaben {
       FunnyTaxi taxi = new FunnyTaxi();
       //Get some passegers in the car
       // TO CHECK an returned arr just comment it out
-      for (int i = 0; i < 5; i++){
+      for (int i = 0; i < 3; i++){
          System.out.println(taxi.addPasseger(("name_"+(i+1)), ("forname_"+(i+1))));
       }
       //Get out all passegers and check who is inside there

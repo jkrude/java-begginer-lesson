@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8b32d31d-7842-440a-bef6-67db57f68fdf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aufgabe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgaben.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgaben.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgaben.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +46,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Application.Aufgaben">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Aufgaben" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -71,12 +71,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.taxi.Main" />
+      <module name="java-beginner-lesson" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Basics" />
       <item itemvalue="Application.Aufgaben" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Aufgaben" />
         <item itemvalue="Application.Basics" />
       </list>
@@ -101,7 +110,8 @@
       <workItem from="1606384007414" duration="1409000" />
       <workItem from="1606392380469" duration="1212000" />
       <workItem from="1606901636700" duration="1750000" />
-      <workItem from="1606903658336" duration="9390000" />
+      <workItem from="1606903658336" duration="10294000" />
+      <workItem from="1606997064349" duration="26000" />
     </task>
     <servers />
   </component>
@@ -137,26 +147,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="419" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1606380032199" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606902481846">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606997087915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606902481846" />
-    <state width="1323" height="312" key="GridCell.Tab.0.bottom" timestamp="1606915326650">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606997087915" />
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom" timestamp="1606918486708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="312" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606915326650" />
-    <state width="1323" height="312" key="GridCell.Tab.0.center" timestamp="1606915326650">
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606918486708" />
+    <state width="1323" height="190" key="GridCell.Tab.0.center" timestamp="1606918486707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="312" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606915326650" />
-    <state width="1323" height="312" key="GridCell.Tab.0.left" timestamp="1606915326649">
+    <state width="1323" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606918486707" />
+    <state width="1323" height="190" key="GridCell.Tab.0.left" timestamp="1606918486707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="312" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606915326649" />
-    <state width="1323" height="312" key="GridCell.Tab.0.right" timestamp="1606915326650">
+    <state width="1323" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606918486707" />
+    <state width="1323" height="190" key="GridCell.Tab.0.right" timestamp="1606918486708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="312" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606915326650" />
+    <state width="1323" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606918486708" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1606902508626">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
