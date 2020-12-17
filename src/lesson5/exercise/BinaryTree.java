@@ -63,6 +63,9 @@ public class BinaryTree {
       }
     }
 
+    public int getValue() {
+      return value;
+    }
   }
 
 }

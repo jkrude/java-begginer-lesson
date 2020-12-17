@@ -1,6 +1,7 @@
 package lesson5.exercise;
 
 import lesson5.exercise.BinaryTree.Node;
+import lesson5.solution.TreeSumImpl;
 
 public class Test {
 
@@ -28,16 +29,15 @@ public class Test {
 
     BinaryTree tree = new BinaryTree(root);
     Node[] treeAsArray = tree.collapse();
-    /*
-    TreeSum sumVisitor; // new TreeSum() → needs to be implemented
+
+    TreeSum sumVisitor = new TreeSumImpl(); // new TreeSum() → needs to be implemented
     tree.applyVisitor(sumVisitor);
-    if(sumVisitor.sumOfTree() == 21){
+    if (sumVisitor.sumOfTree() == 21) {
       System.out.println("Correct.");
-    }else{
+    } else {
       System.out.println("Wrong answer.");
     }
 
-     */
 
   }
 
