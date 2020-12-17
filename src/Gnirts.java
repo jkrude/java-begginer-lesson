@@ -1,5 +1,3 @@
-package com.abstracts;
-
 public class Gnirts implements CharSequence {
 
    private String reverseLine = "";

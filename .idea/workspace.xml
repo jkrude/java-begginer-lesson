@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b32d31d-7842-440a-bef6-67db57f68fdf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ChristmasTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aufgaben.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgaben.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gnirts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gnirts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +49,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Codes\JAVA\Lessons\java-beginner-lesson\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ChristmasTree">
     <configuration name="Aufgaben" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -71,6 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChristmasTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChristmasTree" />
+      <module name="java-beginner-lesson" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.taxi.Main" />
       <module name="java-beginner-lesson" />
@@ -82,9 +100,11 @@
       <item itemvalue="Application.Basics" />
       <item itemvalue="Application.Aufgaben" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ChristmasTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChristmasTree" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Aufgaben" />
         <item itemvalue="Application.Basics" />
@@ -112,6 +132,10 @@
       <workItem from="1606901636700" duration="1750000" />
       <workItem from="1606903658336" duration="10294000" />
       <workItem from="1606997064349" duration="26000" />
+      <workItem from="1607597293460" duration="817000" />
+      <workItem from="1608158500769" duration="1542000" />
+      <workItem from="1608197762723" duration="2317000" />
+      <workItem from="1608208627321" duration="10206000" />
     </task>
     <servers />
   </component>
@@ -131,46 +155,66 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="436" y="0" key="#Code_Folding" timestamp="1608198086895">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="436" y="0" key="#Code_Folding/0.0.1366.728@0.0.1366.728" timestamp="1608198086895" />
     <state x="163" y="0" key="#Project_Structure" timestamp="1606379927400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1606379927400" />
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606381584297">
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607597391837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606381584297" />
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607597391837" />
     <state x="469" y="68" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1606379851618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="469" y="68" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1606379851618" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1608199164171">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1608199164171" />
     <state x="419" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606380032199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="419" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1606380032199" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606997087915">
+    <state x="363" y="5" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1608216579368">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606997087915" />
-    <state width="1323" height="190" key="GridCell.Tab.0.bottom" timestamp="1606918486708">
+    <state x="363" y="5" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1366.728@0.0.1366.728" timestamp="1608216579368" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1608203703944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606918486708" />
-    <state width="1323" height="190" key="GridCell.Tab.0.center" timestamp="1606918486707">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608203703944" />
+    <state width="1323" height="349" key="GridCell.Tab.0.bottom" timestamp="1608220374351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606918486707" />
-    <state width="1323" height="190" key="GridCell.Tab.0.left" timestamp="1606918486707">
+    <state width="1323" height="349" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608220374351" />
+    <state width="1323" height="349" key="GridCell.Tab.0.center" timestamp="1608220374351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606918486707" />
-    <state width="1323" height="190" key="GridCell.Tab.0.right" timestamp="1606918486708">
+    <state width="1323" height="349" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608220374351" />
+    <state width="1323" height="349" key="GridCell.Tab.0.left" timestamp="1608220374351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606918486708" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1606902508626">
+    <state width="1323" height="349" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608220374351" />
+    <state width="1323" height="349" key="GridCell.Tab.0.right" timestamp="1608220374351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606902508626" />
+    <state width="1323" height="349" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608220374351" />
+    <state x="416" y="66" key="RollbackChangesDialog" timestamp="1608198255211">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="416" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608198255211" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1608216573665">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608216573665" />
+    <state x="404" y="105" width="540" height="524" key="StructurePopup" timestamp="1608198059784">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1608198059784" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605792519687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -183,14 +227,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="76" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1605787248022" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1606913563394">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1608209092381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1606913563394" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606902125189">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1608209092381" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1608219965854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606902125189" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1608219965854" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
