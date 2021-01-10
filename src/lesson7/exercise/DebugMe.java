@@ -63,7 +63,7 @@ public class DebugMe {
         assertEquals(2, xx);
         X xxx = x;
         callFoo(xxx);
-        assertEquals(43, xxx.x);
+        assertEquals(42, xxx.x);
     }
 
     public void callFoo(X x) {
@@ -72,7 +72,7 @@ public class DebugMe {
     }
 
     private void callFoo(XX x) {
-        x.x = 0;
+        x.x = 2;
         x.foo();
     }
 
