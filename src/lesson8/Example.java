@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import javafx.beans.property.StringProperty;
 
 
 public class Example {
@@ -19,10 +20,12 @@ public class Example {
      * Generics
      */
     // We use the pair class by specifying which types we use for X and Y with the diamond operator <>.
-    Pair<String, String> stringPair = new Pair<>(s1, s2);
+    Pair<String, String> pair = new Pair<>(s1, s2);
+    String s3 = pair.getX();
     // Because we have used different types (X and Y) in the pair class
     //  we can also use different types here (integers and strings).
     Pair<Integer, String> mixedPair = new Pair<>(1, s1);
+    Integer pairX = mixedPair.getX();
     // mixedPair = stringPair; would result in an error, because they pair is specified in different ways.
     // NOTE: Use the wrapper classes for primitive types (Integer for int, Double for double etc.).
 
@@ -39,7 +42,7 @@ public class Example {
     list.add(1);
     list.add(2);
     System.out.println(list);
-    list.remove(2); // list.remove(0);
+    list.remove(0); // list.remove(0);
     // You can iterate over a list just as you can over arrays.
     for (Integer i : list) {
       System.out.println(i);

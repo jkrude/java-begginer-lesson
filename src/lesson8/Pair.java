@@ -4,8 +4,8 @@ package lesson8;
 // We can use the types X and Y in the whole class, because we declared it in the class signature.
 public class Pair<X, Y> {
 
-    protected X x;
-    protected Y y;
+    private X x;
+    private Y y;
 
     public Pair(X x, Y y) {
         this.x = x;
