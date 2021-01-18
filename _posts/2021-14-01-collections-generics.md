@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "8. Collections and generics "
-date:   2021-10-01 11:26:54 +0100
+date:   2021-01-10 11:26:54 +0100
 permalink: 8-collections-generics.html
 ---
 
