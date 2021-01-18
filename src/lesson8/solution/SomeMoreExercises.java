@@ -1,10 +1,12 @@
-package lesson8.exercise;
+package lesson8.solution;
 
 import static org.junit.Assert.assertEquals;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import org.junit.Test;
 
 public class SomeMoreExercises {
@@ -16,9 +18,18 @@ public class SomeMoreExercises {
   }
 
   public static <T> int numberOfDuplicates(List<T> list) {
-    // TODO: How could you use lists / sets to perform this goal?
-    // Hint: size() is specified for lists and sets.
-    return 0;
+    /* We know that a set has no duplicates.
+     * Therefore the difference in size between both must be duplicates.
+     * Have a look here fore more information about sets:
+     *      https://docs.oracle.com/javase/9/docs/api/java/util/Set.html
+     * Remember: T is a generic type. Because our method is not specific to any type.
+     */
+    Set<T> listAsSet = new HashSet<>();
+    listAsSet.addAll(list);
+    return list.size() - listAsSet.size();
+
+    // Alternatively: You could do this in one line and use the new object directly.
+    // return list.size() - new HashSet(list).size();
   }
 
   @Test
@@ -46,11 +57,11 @@ public class SomeMoreExercises {
     text = text.replaceAll("\\.", "");
     for (String word : text.split(" ")) {
       // For each word in the text:
-      if (!map.containsKey("...")) { // TODO: replace "..."
+      if (!map.containsKey(word)) {
         map.put(word, 1);
       } else {
         int prevCount = map.get(word);
-        // TODO: Update count.
+        map.replace(word, ++prevCount);
       }
     }
     // If searchedWord is not a key in this map use 0 as default.
