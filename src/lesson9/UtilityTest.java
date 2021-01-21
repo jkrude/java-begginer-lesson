@@ -1,13 +1,11 @@
 package lesson9;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.List;
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.jupiter.api.Assertions;
 
 
 /* As you can see your unit tests look just like a normal class.
@@ -16,11 +14,11 @@ import org.junit.jupiter.api.Assertions;
  */
 public class UtilityTest {
 
-  private List<Integer> integerList;
+  private static List<Integer> integerList;
 
   // This method is called before every test case.
-  @Before
-  public void setup() {
+  @BeforeAll
+  public static void setup() {
     integerList = List.of(1, 2, 3, 5, 3, 2, 1);
   }
 
@@ -31,7 +29,7 @@ public class UtilityTest {
     assertTrue(onlyEven); // if(onlyEven) -> success
 
     onlyEven = Utility.containsOnlyEven(List.of(0, 2, 4, 3));
-    Assertions.assertFalse(onlyEven); // No magic but static methods within class Assertions.
+    assertFalse(onlyEven); // No magic but static methods within class Assertions.
   }
 
 
