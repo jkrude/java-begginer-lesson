@@ -1,10 +1,10 @@
 package lesson9.exercise;
 
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import lesson5.solution.Gnirts;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 
 /*

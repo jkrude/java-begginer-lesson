@@ -2,7 +2,6 @@ package lesson8.exercise;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import org.junit.Test;
 
 public class Exercise {
 
