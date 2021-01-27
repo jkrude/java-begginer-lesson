@@ -13,7 +13,8 @@ import org.junit.jupiter.api.Test;
 public class Exercise {
 
   /*
-   * Sort the list by writing you own comparator.
+   * Sort the list by writing your own comparator.
+   * (Comparator is a functional interface)
    * A comparator gets to objects and returns which one is greater.
    * Use compareTo from the class String in order to compare to strings.
    *  int diff = new String("AA").compareTo("BB");
@@ -66,7 +67,7 @@ public class Exercise {
         new Person("Coleen", 3));
 
     List<String> result = getMinorNames(personList);
-    assertEquals(2, personList.size());
+    assertEquals(2, result.size());
     assertTrue(result.contains("Claudine"));
     assertTrue(result.contains("Coleen"));
   }
